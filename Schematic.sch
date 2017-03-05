@@ -2100,8 +2100,6 @@ small</description>
 <wire x1="3.175" y1="-0.3175" x2="4.445" y2="-0.3175" width="0.254" layer="21"/>
 <wire x1="3.175" y1="-0.3175" x2="3.175" y2="-0.6223" width="0.254" layer="21"/>
 <wire x1="4.445" y1="-0.3175" x2="4.445" y2="0.9525" width="0.254" layer="21"/>
-<wire x1="-2.794" y1="-3.81" x2="-4.826" y2="-3.81" width="0.1524" layer="51"/>
-<wire x1="-4.826" y1="3.81" x2="-2.794" y2="3.81" width="0.1524" layer="51"/>
 <wire x1="-4.826" y1="3.81" x2="-5.08" y2="3.81" width="0.1524" layer="21"/>
 <wire x1="-4.826" y1="-3.81" x2="-5.08" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.1524" layer="21"/>
@@ -2109,17 +2107,11 @@ small</description>
 <wire x1="4.826" y1="3.81" x2="5.08" y2="3.81" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="3.81" x2="5.08" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="-2.794" y1="3.81" x2="-2.286" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="3.81" x2="-0.254" y2="3.81" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="3.81" x2="2.286" y2="3.81" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="3.81" x2="4.826" y2="3.81" width="0.1524" layer="51"/>
 <wire x1="-0.254" y1="3.81" x2="0.254" y2="3.81" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="3.81" x2="2.794" y2="3.81" width="0.1524" layer="21"/>
 <wire x1="-2.794" y1="-3.81" x2="-2.286" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="-3.81" x2="0.254" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-3.81" x2="2.794" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="-3.81" x2="-0.254" y2="-3.81" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="-3.81" x2="2.286" y2="-3.81" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="-3.81" x2="4.826" y2="-3.81" width="0.1524" layer="51"/>
 <pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
@@ -2128,13 +2120,13 @@ small</description>
 <pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-3.96875" y="1.30175" size="0.9906" layer="21" ratio="12" align="bottom-center">1</text>
-<text x="-1.27" y="1.30175" size="0.9906" layer="21" ratio="12" align="bottom-center">2</text>
-<text x="1.27" y="1.30175" size="0.9906" layer="21" ratio="12" align="bottom-center">3</text>
-<text x="3.81" y="1.30175" size="0.9906" layer="21" ratio="12" align="bottom-center">4</text>
+<text x="-3.81" y="1.30175" size="0.8128" layer="21" ratio="12" align="bottom-center">1</text>
+<text x="-1.27" y="1.30175" size="0.8128" layer="21" ratio="12" align="bottom-center">2</text>
+<text x="1.27" y="1.30175" size="0.8128" layer="21" ratio="12" align="bottom-center">3</text>
+<text x="3.81" y="1.30175" size="0.8128" layer="21" ratio="12" align="bottom-center">4</text>
 <text x="-5.08" y="5.1435" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.508" y="5.1435" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.87325" y="-1.31445" size="0.9906" layer="21" ratio="12" align="top-right">OFF</text>
+<text x="-2.3495" y="-1.31445" size="0.8128" layer="21" ratio="12" align="top-right">OFF</text>
 </package>
 </packages>
 <symbols>
