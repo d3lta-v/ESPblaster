@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2211,20 +2211,19 @@ The Sparkfun Design Rules are better suited towards real life production of PCBs
 <wire x1="1.905" y1="10.35" x2="2.0061" y2="10.2489" width="0.8128" layer="1"/>
 <wire x1="9.525" y1="15.24" x2="9.525" y2="12.1793" width="0.6096" layer="1"/>
 <wire x1="9.525" y1="12.1793" x2="7.5946" y2="10.2489" width="0.6096" layer="1"/>
-<via x="33.02" y="1.905" extent="1-16" drill="0.6"/>
-<wire x1="33.02" y1="3.68" x2="33.02" y2="1.905" width="0.3048" layer="1"/>
 <wire x1="20.705" y1="16.765" x2="24.4475" y2="16.765" width="0.6096" layer="1"/>
 <wire x1="20.705" y1="16.765" x2="20.45" y2="16.51" width="0.6096" layer="1"/>
-<wire x1="11.43" y1="0.635" x2="6.35" y2="0.635" width="0.6096" layer="1"/>
-<wire x1="5.635625" y1="1.349375" x2="5.635625" y2="5.000625" width="0.6096" layer="1"/>
-<via x="5.635625" y="1.349375" extent="1-16" drill="0.6"/>
-<wire x1="6.35" y1="0.635" x2="5.635625" y2="1.349375" width="0.6096" layer="1"/>
-<wire x1="1.905" y1="2.35" x2="4.635" y2="2.35" width="0.3048" layer="1"/>
-<wire x1="4.635" y1="2.35" x2="5.635625" y2="1.349375" width="0.3048" layer="1"/>
+<wire x1="6.35" y1="0.635" x2="11.43" y2="0.635" width="0.6096" layer="1"/>
 <wire x1="7.5946" y1="10.2489" x2="2.0061" y2="10.2489" width="0.3048" layer="1"/>
 <wire x1="20.45" y1="16.51" x2="20.45" y2="16.005" width="0.6096" layer="1"/>
 <via x="19.05" y="14.605" extent="1-16" drill="0.6"/>
 <wire x1="20.45" y1="16.005" x2="19.05" y2="14.605" width="0.6096" layer="1"/>
+<wire x1="5.635625" y1="5.000625" x2="5.715" y2="5.000625" width="0.6096" layer="1"/>
+<wire x1="5.715" y1="1.27" x2="5.715" y2="5.000625" width="0.6096" layer="1"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.6096" layer="1"/>
+<wire x1="1.905" y1="2.35" x2="4.635" y2="2.35" width="0.3048" layer="1"/>
+<wire x1="4.635" y1="2.35" x2="5.715" y2="1.27" width="0.3048" layer="1"/>
+<via x="5.715" y="1.27" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="5V">
 <contactref element="C1" pad="A"/>
