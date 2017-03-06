@@ -283,6 +283,11 @@ Table</text>
 <wire x1="5.08" y1="31.75" x2="5.08" y2="13.97" width="0.2032" layer="22"/>
 <wire x1="5.08" y1="13.97" x2="3.81" y2="12.7" width="0.2032" layer="22"/>
 <wire x1="3.81" y1="12.7" x2="0" y2="12.7" width="0.2032" layer="22"/>
+<wire x1="31.115" y1="11.43" x2="35.2425" y2="11.43" width="0.254" layer="22"/>
+<wire x1="35.2425" y1="11.43" x2="35.2425" y2="3.81" width="0.254" layer="22"/>
+<wire x1="35.2425" y1="3.81" x2="31.115" y2="3.81" width="0.254" layer="22"/>
+<text x="33.02" y="9.525" size="1.016" layer="22" ratio="12" rot="MR0" align="center">LOW</text>
+<text x="33.02" y="5.715" size="1.016" layer="22" ratio="12" rot="MR0" align="center">HIGH</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
