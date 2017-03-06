@@ -22,10 +22,10 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
@@ -167,10 +167,10 @@
 v0.1</text>
 <wire x1="31.115" y1="11.43" x2="31.115" y2="3.81" width="0.254" layer="22"/>
 <wire x1="20.955" y1="3.81" x2="20.955" y2="11.43" width="0.254" layer="22"/>
-<text x="29.68625" y="8.89" size="1.016" layer="22" ratio="10" rot="MR0" align="center">1</text>
-<text x="27.305" y="8.89" size="1.016" layer="22" ratio="10" rot="MR0" align="center">2</text>
-<text x="24.765" y="8.89" size="1.016" layer="22" ratio="10" rot="MR0" align="center">3</text>
-<text x="22.225" y="8.89" size="1.016" layer="22" ratio="10" rot="MR0" align="center">4</text>
+<text x="22.06625" y="8.89" size="1.016" layer="22" ratio="10" rot="MR0" align="center">1</text>
+<text x="24.765" y="8.89" size="1.016" layer="22" ratio="10" rot="MR0" align="center">2</text>
+<text x="27.305" y="8.89" size="1.016" layer="22" ratio="10" rot="MR0" align="center">3</text>
+<text x="29.845" y="8.89" size="1.016" layer="22" ratio="10" rot="MR0" align="center">4</text>
 <wire x1="5.3975" y1="13.0175" x2="5.3975" y2="11.1125" width="0.2032" layer="22"/>
 <wire x1="5.3975" y1="11.1125" x2="7.3025" y2="11.1125" width="0.2032" layer="22"/>
 <wire x1="7.3025" y1="11.1125" x2="9.2075" y2="11.1125" width="0.2032" layer="22"/>
@@ -288,6 +288,7 @@ Table</text>
 <wire x1="35.2425" y1="3.81" x2="31.115" y2="3.81" width="0.254" layer="22"/>
 <text x="33.02" y="5.715" size="1.016" layer="22" ratio="12" rot="MR0" align="center">LOW</text>
 <text x="33.02" y="9.525" size="1.016" layer="22" ratio="12" rot="MR0" align="center">HIGH</text>
+<text x="6.35" y="21.59" size="1.27" layer="21" ratio="10" rot="R90" align="center">5V Tolerant</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -2221,8 +2222,8 @@ The Sparkfun Design Rules are better suited towards real life production of PCBs
 <attribute name="VALUE" x="9.752" y="1.208" size="0.6096" layer="21" rot="R180"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="CPOL-RADIAL-100UF-25V" value="470uF" x="10.795" y="15.24" smashed="yes">
-<attribute name="NAME" x="6.76275" y="15.113" size="0.6096" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="9.2075" y="19.177" size="0.8128" layer="21"/>
+<attribute name="NAME" x="14.82725" y="16.002" size="0.6096" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="9.2075" y="19.177" size="0.8128" layer="21" ratio="10"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="1206" value="0.1uF" x="19.05" y="16.51" smashed="yes">
 <attribute name="NAME" x="16.8275" y="17.653" size="0.6096" layer="25"/>
@@ -2250,17 +2251,18 @@ The Sparkfun Design Rules are better suited towards real life production of PCBs
 <element name="S1" library="custom" package="DIP04S" value="" x="26.035" y="7.62" smashed="yes">
 <attribute name="MF" value="" x="26.035" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="26.035" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.955" y="13.23975" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="20.32" y="0.53975" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="26.035" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="26.035" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26.543" y="12.446" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="U2" library="custom" package="SOT230P696X180-4N" value="LM1117" x="10.795" y="7.9375">
+<element name="U2" library="custom" package="SOT230P696X180-4N" value="LM1117" x="10.795" y="7.9375" smashed="yes">
 <attribute name="MPN" value="LM1117MP-3.3" x="10.795" y="7.9375" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9778195" x="10.795" y="7.9375" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="41K3470" x="10.795" y="7.9375" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="SOT223-3" x="10.795" y="7.9375" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="NationalSemiconductor" x="10.795" y="7.9375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="10.4013" y="7.8359" size="1.016" layer="21" ratio="10" rot="SR270" align="bottom-center"/>
 </element>
 <element name="U$1" library="custom" package="FOURIERINDUSTRIES-SMALL-INV" value="" x="35.71875" y="28.8925"/>
 <element name="R3" library="SparkFun-Resistors" package="1206" value="10k" x="18.415" y="4.445" rot="R270"/>
@@ -2313,8 +2315,6 @@ The Sparkfun Design Rules are better suited towards real life production of PCBs
 <wire x1="6.35" y1="0.635" x2="11.43" y2="0.635" width="0.6096" layer="1"/>
 <wire x1="7.5946" y1="10.2489" x2="2.0061" y2="10.2489" width="0.3048" layer="1"/>
 <wire x1="20.45" y1="16.51" x2="20.45" y2="16.005" width="0.6096" layer="1"/>
-<via x="19.05" y="14.605" extent="1-16" drill="0.6"/>
-<wire x1="20.45" y1="16.005" x2="19.05" y2="14.605" width="0.6096" layer="1"/>
 <wire x1="5.635625" y1="5.000625" x2="5.715" y2="5.000625" width="0.6096" layer="1"/>
 <wire x1="5.715" y1="1.27" x2="5.715" y2="5.000625" width="0.6096" layer="1"/>
 <wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.6096" layer="1"/>
@@ -2325,6 +2325,8 @@ The Sparkfun Design Rules are better suited towards real life production of PCBs
 <contactref element="S1" pad="2"/>
 <contactref element="S1" pad="3"/>
 <contactref element="S1" pad="4"/>
+<wire x1="24.4475" y1="16.765" x2="24.4475" y2="14.605" width="0.6096" layer="1"/>
+<via x="24.4475" y="14.605" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="5V">
 <contactref element="C1" pad="A"/>
@@ -2417,13 +2419,14 @@ The Sparkfun Design Rules are better suited towards real life production of PCBs
 <contactref element="J1" pad="4"/>
 <contactref element="R4" pad="1"/>
 <contactref element="S1" pad="7"/>
-<wire x1="24.765" y1="11.43" x2="24.765" y2="12.065" width="0.3048" layer="1"/>
-<wire x1="24.765" y1="12.065" x2="22.86" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="20.825" y1="13.97" x2="18.415" y2="11.56" width="0.3048" layer="1"/>
-<wire x1="22.86" y1="13.97" x2="20.825" y2="13.97" width="0.3048" layer="1"/>
 <wire x1="18.415" y1="11.56" x2="15.875" y2="14.1" width="0.3048" layer="1"/>
 <wire x1="15.875" y1="20.955" x2="17.78" y2="22.86" width="0.3048" layer="1"/>
 <wire x1="15.875" y1="14.1" x2="15.875" y2="20.955" width="0.3048" layer="1"/>
+<wire x1="24.765" y1="11.43" x2="24.765" y2="12.065" width="0.3048" layer="1"/>
+<wire x1="24.765" y1="12.065" x2="22.86" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="22.86" y1="13.97" x2="19.685" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="19.685" y1="13.97" x2="18.415" y2="12.7" width="0.3048" layer="1"/>
+<wire x1="18.415" y1="12.7" x2="18.415" y2="11.56" width="0.3048" layer="1"/>
 </signal>
 <signal name="CH_PD">
 <contactref element="J1" pad="6"/>
